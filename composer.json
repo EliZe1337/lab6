@@ -1,0 +1,23 @@
+{
+    "name": "user/lab6",
+    "autoload": {
+        "psr-4": {
+            "User\\Lab6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EliZe1337",
+            "email": "timoxashro@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/EliZe1337/library"
+        }
+    ],
+    "require": {
+        "user/library": "dev-main"
+    }
+}

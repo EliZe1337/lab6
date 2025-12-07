@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c5f536b109f5c209041de896e0813237",
+    "packages": [
+        {
+            "name": "user/library",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EliZe1337/library.git",
+                "reference": "9542a3e6692898bbaa00f432d01225d2353c7989"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EliZe1337/library/zipball/9542a3e6692898bbaa00f432d01225d2353c7989",
+                "reference": "9542a3e6692898bbaa00f432d01225d2353c7989",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "User\\Library\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "EliZe1337",
+                    "email": "timoxashro@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/EliZe1337/library/tree/main",
+                "issues": "https://github.com/EliZe1337/library/issues"
+            },
+            "time": "2025-12-07T23:02:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "user/library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
